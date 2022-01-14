@@ -156,3 +156,11 @@ p{
 small{
     margin-top: -10px;
 }
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: lightgreen;
+}
+footer h1,p{
+    text-align: center;
+}
