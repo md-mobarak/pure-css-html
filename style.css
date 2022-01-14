@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightcyan;
+}
+header{
+    background-color: tomato;
+    height: 80px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+.header-name1{
+    display: flex;
+}
+.header-name2{
+    display: flex;
+    margin-left: 200px;
+}
+
+nav{
+    height:80px;
+    width: 870px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:space-between
+}
+.idea1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 800;
+    
+
+}
+  
+
+.idea2{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 15px;
+
+    
+}
+
+
+  /* main start */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part-1{
+    Width:870px;
+   Height:679px;
+   background-color: thistle;
+   margin-bottom: 15px;
+   margin-top: 15px;
+   border-radius: 5px;
+   }
+   .title{
+       padding-top: 15px;
+       margin-left: 30px;
+       margin-top: 20px;
+       color: tomato;
+   }
+   .players img{
+       height: 56px;
+       width: 56px;
+   }
+   .players{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       justify-content: center;
+       align-items: center;
+       margin-left: 40px;
+       margin-top: 30px;
+       grid-row-gap: 20px;
+       padding-bottom: 20px;
+   }
+.player{
+    display: flex;
+}
+.player-name{
+    padding-left: 15px;
+}
+hr{
+    color: goldenrod;
+}
+       /* all-blogs */
+
+.all-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+article{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+span{
+    color:gray;
+    margin-right: 3px;
+}
+p{
+    color: rgba(11, 108, 235, 0.842);
+}
+
+.blog-name{
+    font-size: 16px;
+
+}
+/* latest course */
+.box-2{
+    width: 870px;
+    height: 362px;
+    background-color: thistle;
+    border-radius: 5px;
+}
+.fak{
+    margin-left: 13px;
+}
+
+/* article end */
+.all-coures{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.course img {
+    width: 224px;
+    height: 104px;
+}
+small{
+    margin-top: -10px;
+}
