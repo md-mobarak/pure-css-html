@@ -130,7 +130,7 @@ p{
 }
 /* latest course */
 .box-2{
-    max-width: 870px;
+    width: 870px;
     max-height: 362px;
     background-color: thistle;
     border-radius: 5px;
